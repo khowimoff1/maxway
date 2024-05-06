@@ -88,8 +88,8 @@ const Home = ({ allPrice, setAllPrice }) => {
   }, []);
 
   return (
-    <div className="container w-[96%] md:w-full md:pt-28 md:max-w-7xl  m-auto md:px-4 md:py-4 px-0 py-10">
-      <Slider {...settings} className="w-[93%] left-5 md:w-[96%] lg:w-full">
+    <div className="container w-[94%] md:w-full md:pt-28 md:max-w-7xl  m-auto md:px-4 md:py-4 px-0 py-10">
+      <Slider {...settings} className="w-[90%] left-5 md:w-[96%] lg:w-full">
         {Json.map((item) => (
           <div key={item.id}>
             <div className="flex items-center mt-10 md:mt-0 justify-center">
@@ -157,7 +157,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -179,7 +179,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -263,7 +263,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -285,7 +285,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -369,7 +369,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -391,7 +391,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -475,7 +475,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -497,7 +497,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px]  justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -581,7 +581,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -603,7 +603,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -687,7 +687,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -709,7 +709,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -793,7 +793,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -815,7 +815,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
@@ -899,7 +899,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                         )
                         ? "hidden"
                         : "flex"
-                    } rounded-3xl hover:bg-purple-700 py-1 md:py-2 px-4 bg-purple-800 text-white`}
+                    } rounded-3xl hover:bg-purple-700 flex items-center justify-center py-1 md:py-2 px-4 bg-purple-800 text-white`}
                   >
                     Qo'shish
                   </button>
@@ -921,7 +921,7 @@ const Home = ({ allPrice, setAllPrice }) => {
                     >
                       <FaMinus />
                     </button>
-                    <div className="flex items-center w-8 h-[37px] justify-center font-semibold">
+                    <div className="flex items-center w-8 md:h-[37px] h-[32px] justify-center font-semibold">
                       {[...select]
                         .reverse()
                         .find((item) => item.id === product.id)?.count && (
