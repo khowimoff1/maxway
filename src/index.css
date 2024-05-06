@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav a.active{
+    font-weight: 600;
+}
+.navRes a.active{
+    background-color: rgb(245, 241, 241);
+}
+.special-label{
+    display: none;
+}
+.form-control {
+    outline: none;
+    margin-left: 3px;
+}
+
